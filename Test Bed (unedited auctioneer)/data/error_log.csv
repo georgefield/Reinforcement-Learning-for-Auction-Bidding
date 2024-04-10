@@ -1,0 +1,38 @@
+2024-01-22 12:58:11.810973;0;<module 'bots.u2013389' from 'C:\\Users\\George\\Documents\\CS404 agent based systems coursework\\bots\\u2013389.py'>;initialisation;module 'bots.u2013389' has no attribute 'Bot'
+2024-02-16 13:26:20.074241;0;execute_fastest_plan-2;bidding;name 'getFastestWinState' is not defined
+2024-02-16 13:27:04.285240;0;execute_fastest_plan-2;bidding;Bot.getFastestWinState() takes 3 positional arguments but 4 were given
+2024-02-16 13:28:00.630408;0;execute_fastest_plan-2;bidding;'NoneType' object is not subscriptable
+2024-02-16 13:28:50.826526;0;execute_fastest_plan-2;bidding;name 'forward_count' is not defined
+2024-02-16 13:35:41.422639;0;execute_fastest_plan-2;bidding;name 'target_painting_counts_sorted' is not defined
+2024-02-16 13:57:29.880708;0;execute_fastest_plan-3;bidding;name 'geqCount' is not defined
+2024-02-16 13:57:43.753803;0;execute_fastest_plan-3;bidding;'int' object is not iterable
+2024-03-25 13:07:27.094210;0;2013389-3;bidding;'Bot' object has no attribute 'get_paintings_binary_encoding'
+2024-03-25 13:08:11.707199;0;2013389-3;bidding;'Bot' object has no attribute 'paintingLookahead'
+2024-03-25 13:28:44.875059;0;2013389-3;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 220, but received input with shape (1, 200)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 200), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-25 15:39:45.050491;0;<module 'bots.play_model_bot' from 'C:\\Users\\George\\Documents\\cs404 coursework\\unedited auctioneer\\bots\\play_model_bot.py'>;initialisation;File not found: filepath=greedyp6trained.keras. Please ensure the file is an accessible `.keras` zip file.
+2024-03-25 15:40:02.036122;0;<module 'bots.play_model_bot' from 'C:\\Users\\George\\Documents\\cs404 coursework\\unedited auctioneer\\bots\\play_model_bot.py'>;initialisation;File not found: filepath=greedyp6trained.keras. Please ensure the file is an accessible `.keras` zip file.
+2024-03-25 18:26:30.145250;0;2013389-1;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 220, but received input with shape (1, 202)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 202), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-26 17:35:38.060189;0;smaller_greedy-2;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 27, but received input with shape (1, 22)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 22), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-27 14:36:02.354723;0;my_bot-1;bidding;Unrecognized data type: x=[1, 1.0, 1, 0, 1, 1.0, 1, 0, 1, 1.0, 1, 0, 1, 0, 0.3, 1, 0, 0.4, 1, 0, 0.35, 1, 0, 0.3, 1, 0, 0.1] (of type <class 'list'>)
+2024-03-27 14:42:09.905599;0;my_bot-1;bidding;Unrecognized data type: x=[1, 1.0, 1, 0, 1, 1.0, 1, 0, 1, 1.0, 1, 0, 1, 0, 0.2, 1, 0, 0.4, 1, 0, 0.2, 1, 0, 0.25, 1, 0, 0.15] (of type <class 'list'>)

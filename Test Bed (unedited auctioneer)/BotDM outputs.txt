@@ -1,0 +1,6 @@
+epoch 0: 22
+epoch 25: 2
+epoch 50: 1
+epoch 75: 4
+epoch 125: 4
+epoch 175: 12

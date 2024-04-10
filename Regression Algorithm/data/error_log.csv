@@ -1,0 +1,376 @@
+2024-01-22 12:58:11.810973;0;<module 'bots.u2013389' from 'C:\\Users\\George\\Documents\\CS404 agent based systems coursework\\bots\\u2013389.py'>;initialisation;module 'bots.u2013389' has no attribute 'Bot'
+2024-02-16 13:26:20.074241;0;execute_fastest_plan-2;bidding;name 'getFastestWinState' is not defined
+2024-02-16 13:27:04.285240;0;execute_fastest_plan-2;bidding;Bot.getFastestWinState() takes 3 positional arguments but 4 were given
+2024-02-16 13:28:00.630408;0;execute_fastest_plan-2;bidding;'NoneType' object is not subscriptable
+2024-02-16 13:28:50.826526;0;execute_fastest_plan-2;bidding;name 'forward_count' is not defined
+2024-02-16 13:35:41.422639;0;execute_fastest_plan-2;bidding;name 'target_painting_counts_sorted' is not defined
+2024-02-16 13:57:29.880708;0;execute_fastest_plan-3;bidding;name 'geqCount' is not defined
+2024-02-16 13:57:43.753803;0;execute_fastest_plan-3;bidding;'int' object is not iterable
+2024-03-19 16:53:34.816047;0;<bots.network_training.TrainingBot object at 0x6fffffdc1b10>;initialisation;'TrainingBot' object has no attribute 'Bot'
+2024-03-19 16:54:00.312755;0;<bots.network_training.Bot object at 0x6fffffdc1ad0>;initialisation;'Bot' object has no attribute 'Bot'
+2024-03-19 16:55:12.212493;0;<module 'bots.network_training' from '/c/Users/George/Documents/cs404 coursework/edited auctioneer/bots/network_training.py'>;initialisation;Bot.__init__() missing 1 required positional argument: 'id'
+2024-03-19 17:00:15.993790;0;<bots.network_training.Bot object at 0x6fffffdf6110>;initialisation;'Bot' object has no attribute 'Bot'
+2024-03-22 13:38:46.150532;0;0-1;bidding;list indices must be integers or slices, not str
+2024-03-22 15:46:51.596751;0;0;bidding;unsupported operand type(s) for /: 'str' and 'float'
+2024-03-22 16:36:35.428200;0;0;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 100, but received input with shape (1, 24)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 24), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-22 16:40:22.253228;0;0;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 24, but received input with shape (1, 69)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 69), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-25 11:18:52.162291;0;0;bidding;setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (97,) + inhomogeneous part.
+2024-03-25 11:20:47.362410;0;0;bidding;setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (97,) + inhomogeneous part.
+2024-03-25 11:23:07.120360;0;0;bidding;setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (97,) + inhomogeneous part.
+2024-03-25 11:23:45.454220;0;0;bidding;setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (97,) + inhomogeneous part.
+2024-03-25 14:00:10.445073;0;0-1;bidding;'Bot' object has no attribute 'get_greedybot_bid'
+2024-03-25 14:10:34.604750;11;6-7;bidding;list index out of range
+2024-03-25 14:16:05.630079;11;9-10;bidding;"Graph execution error:
+
+Detected at node sequential_1/dense_1/Relu defined at (most recent call last):
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 46, in <module>
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 23, in do_GA_rounds
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 35, in score_single_GA_round
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 173, in run_auction
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 245, in __collect_bids
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\bots\network_training_GA.py"", line 132, in get_bid
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 515, in predict
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 213, in one_step_on_data_distributed
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 202, in one_step_on_data
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 94, in predict_step
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\sequential.py"", line 202, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 194, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\function.py"", line 151, in _run_through_graph
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 578, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\core\dense.py"", line 146, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 47, in relu
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 99, in static_call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\nn.py"", line 16, in relu
+
+Matrix size-incompatible: In[0]: [1,232], In[1]: [220,64]
+	 [[{{node sequential_1/dense_1/Relu}}]] [Op:__inference_one_step_on_data_distributed_96715]"
+2024-03-25 14:20:34.958451;0;0-1;bidding;"in user code:
+
+    File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\bots\network_training_GA.py"", line 78, in get_prediction  *
+        return self.model.predict(modelInput)
+    File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 122, in error_handler  **
+        raise e.with_traceback(filtered_tb) from None
+    File ""C:\Users\George\AppData\Roaming\Python\Python312\site-packages\optree\ops.py"", line 521, in tree_map
+        return treespec.unflatten(flat_results)
+
+    AttributeError: 'SymbolicTensor' object has no attribute 'numpy'
+"
+2024-03-25 15:27:58.682673;11;0-1;bidding;list index out of range
+2024-03-25 15:49:45.998210;0;0-1;bidding;cannot compute fingerprint of empty list
+2024-03-25 15:50:47.653612;0;0-1;bidding;"Failed in nopython mode pipeline (step: nopython frontend)
+[1m[1mnon-precise type pyobject[0m
+[0m[1mDuring: typing of argument at C:\Users\George\Documents\cs404 coursework\edited auctioneer\bots\network_training.py (72)[0m
+[1m
+File ""bots\network_training.py"", line 72:[0m
+[1m    def get_greedybot_bid(
+        <source elided>
+    
+[1m    @jit(nopython=True)
+[0m    [1m^[0m[0m 
+
+This error may have been caused by the following argument(s):
+- argument 0: [1mCannot determine Numba type of <class 'bots.network_training.Bot'>[0m
+- argument 1: [1mCannot determine Numba type of <class 'dict'>[0m
+"
+2024-03-25 15:54:44.660147;0;9-1;bidding;cannot compute fingerprint of empty list
+2024-03-25 16:46:56.026526;0;4-1;bidding;'charmap' codec can't encode characters in position 18-37: character maps to <undefined>
+2024-03-25 16:47:48.913668;0;3-1;bidding;Bot.get_prediction() got an unexpected keyword argument 'verbose'
+2024-03-25 17:02:25.043173;0;9;bidding;name 'myInfo' is not defined
+2024-03-25 17:02:45.440321;1;2;bidding;list indices must be integers or slices, not str
+2024-03-25 17:04:04.419632;0;5;bidding;'dict' object has no attribute 'name'
+2024-03-25 17:04:38.648281;0;2;bidding;list index out of range
+2024-03-25 17:05:36.502076;1;3;bidding;list index out of range
+2024-03-25 17:13:43.552566;0;9;bidding;list index out of range
+2024-03-25 17:14:09.219274;1;5;bidding;5
+2024-03-25 17:14:50.382874;1;2;bidding;2
+2024-03-25 17:20:53.965336;1;0;bidding;'0'
+2024-03-25 17:21:36.488907;1;3;bidding;'3'
+2024-03-25 17:22:30.840243;1;6;bidding;'6'
+2024-03-25 17:37:43.408517;0;2;bidding;'Bot' object has no attribute 'botNamesDict'
+2024-03-25 17:38:16.530736;1;3;bidding;'3'
+2024-03-25 17:52:27.732299;0;3;bidding;"Graph execution error:
+
+Detected at node sequential_1/dense_1/Relu defined at (most recent call last):
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 115, in <module>
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 28, in do_GA_rounds
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 85, in score_single_GA_round
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 173, in run_auction
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 245, in __collect_bids
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\bots\network_training_GA.py"", line 167, in get_bid
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 515, in predict
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 213, in one_step_on_data_distributed
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 202, in one_step_on_data
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 94, in predict_step
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\sequential.py"", line 202, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 194, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\function.py"", line 151, in _run_through_graph
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 578, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\core\dense.py"", line 146, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 47, in relu
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 99, in static_call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\nn.py"", line 16, in relu
+
+Matrix size-incompatible: In[0]: [1,440], In[1]: [220,64]
+	 [[{{node sequential_1/dense_1/Relu}}]] [Op:__inference_one_step_on_data_distributed_14015]"
+2024-03-25 17:56:08.355819;0;4;bidding;"Graph execution error:
+
+Detected at node sequential_1/dense_1/Relu defined at (most recent call last):
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 115, in <module>
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 28, in do_GA_rounds
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 85, in score_single_GA_round
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 173, in run_auction
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 245, in __collect_bids
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\bots\network_training_GA.py"", line 164, in get_bid
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 515, in predict
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 213, in one_step_on_data_distributed
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 202, in one_step_on_data
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 94, in predict_step
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\sequential.py"", line 202, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 194, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\function.py"", line 151, in _run_through_graph
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 578, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\core\dense.py"", line 146, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 47, in relu
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 99, in static_call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\nn.py"", line 16, in relu
+
+Matrix size-incompatible: In[0]: [1,440], In[1]: [220,64]
+	 [[{{node sequential_1/dense_1/Relu}}]] [Op:__inference_one_step_on_data_distributed_31768]"
+2024-03-25 17:58:35.543435;0;9;bidding;list assignment index out of range
+2024-03-25 17:59:51.184495;0;1;bidding;list assignment index out of range
+2024-03-25 19:37:49.049742;0;1;bidding;Bot.get_bid() missing 12 required positional arguments: 'current_round', 'bots', 'winner_pays', 'artists_and_values', 'round_limit', 'starting_budget', 'painting_order', 'target_collection', 'my_bot_details', 'current_painting', 'winner_ids', and 'amounts_paid'
+2024-03-25 19:46:45.630237;0;4;bidding;Bot.get_bid() got an unexpected keyword argument 'my_bot_details'
+2024-03-25 20:01:49.680810;0;5;bidding;list assignment index out of range
+2024-03-25 20:04:59.496714;0;0;bidding;name 'botInfo' is not defined
+2024-03-25 20:14:54.323961;0;8;bidding;'Bot' object has no attribute 'botNameToIndexDict'
+2024-03-25 20:44:57.470959;0;8;bidding;'Bot' object has no attribute 'botNameOrder'
+2024-03-25 20:48:45.020325;0;9;bidding;list index out of range
+2024-03-25 20:49:22.369372;0;5;bidding;'list' object cannot be interpreted as an integer
+2024-03-25 20:49:51.128079;0;7;bidding;'Bot' object has no attribute 'botNameToIndexDict'
+2024-03-25 20:50:53.655438;1;1;bidding;cannot access local variable 'name' where it is not associated with a value
+2024-03-25 20:58:11.117723;0;0;bidding;list index out of range
+2024-03-26 11:37:43.221781;0;0;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 220, but received input with shape (1, 202)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 202), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-26 11:38:30.100995;0;0;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 220, but received input with shape (1, 202)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 202), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-26 11:39:04.618168;0;0;bidding;"Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer ""dense"" is incompatible with the layer: expected axis -1 of input shape to have value 220, but received input with shape (1, 202)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 202), dtype=float32)
+  • training=False
+  • mask=None"
+2024-03-26 11:54:05.047246;0;9;bidding;"Graph execution error:
+
+Detected at node sequential_1/dense_1/Relu defined at (most recent call last):
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 124, in <module>
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 32, in do_GA_rounds
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\arenaGENETIC.py"", line 83, in score_single_GA_round
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 173, in run_auction
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\auctioneer.py"", line 245, in __collect_bids
+
+  File ""C:\Users\George\Documents\cs404 coursework\edited auctioneer\bots\network_training_GA.py"", line 192, in get_bid
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 515, in predict
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 213, in one_step_on_data_distributed
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 202, in one_step_on_data
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\trainer.py"", line 94, in predict_step
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\sequential.py"", line 202, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 194, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\function.py"", line 151, in _run_through_graph
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\models\functional.py"", line 578, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\layer.py"", line 814, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 117, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\ops\operation.py"", line 48, in __call__
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\utils\traceback_utils.py"", line 156, in error_handler
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\layers\core\dense.py"", line 146, in call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 47, in relu
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\activations\activations.py"", line 99, in static_call
+
+  File ""C:\Users\George\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\tensorflow\nn.py"", line 16, in relu
+
+Matrix size-incompatible: In[0]: [1,202], In[1]: [220,64]
+	 [[{{node sequential_1/dense_1/Relu}}]] [Op:__inference_one_step_on_data_distributed_916873]"
+2024-03-26 13:01:14.958183;0;0;bidding;cannot access local variable 'i' where it is not associated with a value
+2024-03-26 13:05:39.054567;0;0;bidding;setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.
+2024-03-26 13:08:54.804401;0;0;bidding;'list' object has no attribute 'shape'
+2024-03-26 13:09:19.422875;0;0;bidding;setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.
+2024-03-26 14:09:07.559061;0;0-1;bidding;'NoneType' object is not subscriptable
+2024-03-26 16:47:16.649267;0;9-1;bidding;'Bot' object has no attribute 'get_need_want_pair'
+2024-03-27 23:26:35.543239;0;12-1;bidding;type numpy.ndarray doesn't define __round__ method
